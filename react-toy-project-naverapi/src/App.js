@@ -1,18 +1,13 @@
 import React from "react";
 import "./App.css";
-import { ListItem } from "./components/pages";
 import { Nav } from "./components/common";
+import { Search } from "./components/pages";
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
-      <ListItem />
+      <Search />
     </div>
   );
 }
